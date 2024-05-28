@@ -1,0 +1,8 @@
+:host {
+    @apply max-w-lg min-w-s lg:min-w-l border-r;
+    height: calc(100vh - 2.4rem);
+    display: flex;
+    flex-direction: column;
+    border-color: var(--conversation-header-border);
+    background-color: var(--background-default);
+}

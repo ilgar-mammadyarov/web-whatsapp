@@ -1,0 +1,8 @@
+<div class="max-w-screen mx-auto flex">
+  <app-sidebar />
+  @if(selectedChat()) {
+  <app-chat-room />
+  } @else {
+  <app-no-chat />
+  }
+</div>

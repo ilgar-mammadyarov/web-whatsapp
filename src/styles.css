@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    --primary:#00a884;
+    --secondary: #8696a0;
+    --background-lighter-content: #f0f2f5;
+    --app-background: #0c1317;
+    --panel-header-background: #202c33;
+    --background-default: #111b21;
+    --rich-text-panel-background: #202c33;
+    --compose-input-background: #2a3942;
+
+    --button-primary-background-hover: #017561;
+
+    --text-primary:#41525d;
+    --text-secondary: #8696a0;
+    --text-secondary-emphasized: #54656f;
+
+    --teal: #008069;
+
+
+    --conversation-header-border: rgb(67, 70, 72);
+
+    --input-placeholder: #8696a0;
+    --input-bg: #1F2C33;
+
+    --background-default-hover: #202c33;
+    --background-default-active: #2a3942;
+    --intro-background: #222e35;
+
+    --intro-secondary: #8696a0;
+    --primary-title: rgba(233, 237, 239, .88);
+
+    /* messages */
+    --message-primary: #e9edef;
+    --outgoing-background: #005c4b;
+
+    /* icons */
+    --panel-header-icon: #aebac1;
+    --icon-lighter: #8696a0;
+    --bubble-meta-icon: rgba(255, 255, 255, .5);
+    --icon-ack: #53bdeb;
+    --reaction-button: rgba(233, 237, 239, .5);
+}
